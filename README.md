@@ -39,3 +39,8 @@ We will disconnect from the master branch.
 ```
 
 ### 4 . I fucked up long ago i aint following no more
+
+lets do a rebase
+
+```
+git rebase master -i
