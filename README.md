@@ -32,3 +32,8 @@ When pushing a branch (not master) you will be prompted to create a p,
 <br>
 The pr can be used to review before merging
 ```
+
+### 3. Divert from the master
+
+We will disconnect from the master branch.
+```
