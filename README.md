@@ -14,4 +14,14 @@ Make a first commit in that branch
 ```
 
 git add .
-git commit -m "First commit"
+git commit -m "commit"
+```
+
+optionally you can push
+if you do omit something you can ammend your commit
+<br>
+To do so:
+```
+git add .
+git commit --amend --no-edit
+```
