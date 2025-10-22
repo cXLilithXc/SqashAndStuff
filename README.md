@@ -25,3 +25,10 @@ To do so:
 git add .
 git commit --amend --no-edit
 ```
+
+### 2. Open a Pull Request
+
+When pushing a branch (not master) you will be prompted to create a p,
+<br>
+The pr can be used to review before merging
+```
