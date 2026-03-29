@@ -1,3 +1,46 @@
 # Git Rebase Squash and shit
 SmallGitCourse
 This is a read me file or smt
+
+### 1. Using branches
+
+First, we checkout the a new *local* branch
+```
+
+git checkout -b "feature_branch"
+```
+
+Make a first commit in that branch
+```
+
+git add .
+git commit -m "commit"
+```
+
+optionally you can push
+if you do omit something you can ammend your commit
+<br>
+To do so:
+```
+git add .
+git commit --amend --no-edit
+```
+
+### 2. Open a Pull Request
+
+When pushing a branch (not master) you will be prompted to create a p,
+<br>
+The pr can be used to review before merging
+```
+
+### 3. Divert from the master
+
+We will disconnect from the master branch.
+```
+
+### 4 . I fucked up long ago i aint following no more
+
+lets do a rebase
+
+```
+git rebase master -i
